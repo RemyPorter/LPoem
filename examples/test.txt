@@ -1,0 +1,3 @@
+line::line * stanza
+stanza::line line line &
+quote::[ stanza stanza ]

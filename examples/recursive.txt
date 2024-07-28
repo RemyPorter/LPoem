@@ -1,0 +1,8 @@
+recursive::[ recursion ] expands
+recursion:: recursion * expands
+expands::each layer is a new idea
+each:: &
+layer::recursive depth
+is:: *
+a::your
+idea::moment
