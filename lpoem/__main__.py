@@ -10,7 +10,7 @@ ap = ArgumentParser(prog="LSystem Poetry Generator",
 ap.add_argument("-r", "--rules", type=str, 
     help="The rule file to use for this poem")
 ap.add_argument("-d", "--depth", type=int, 
-    help="The recursive depth to evaluate to")
+    help="The recursive depth to evaluate to", default=5)
 ap.add_argument("-l","--last", action="store_true", 
     help="Output only the last generation. Default is to output all generations")
 ap.add_argument("-nb", "--no-banner", action="store_true", 
