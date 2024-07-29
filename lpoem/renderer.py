@@ -46,8 +46,8 @@ class Renderer:
     def render_generational_poem(self, poem:List[str]):
         return " ".join([self.render_poem(" ".join(p)) for p in poem])
 
-    def render_poem(self, poem:str):
-        res = []
+    def render_poem(self, poem:List[str]):
+        res = [""]
         for c in poem:
             if c in self._rules:
                 replaced = self._rules[c](self._state, c)
@@ -57,7 +57,7 @@ class Renderer:
                         res += "\t" * self._state.indent_level
                 continue
             res.append(c)
-        return "".join(res)
+        return " ".join(res)
             
 
     

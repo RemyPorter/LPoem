@@ -29,9 +29,9 @@ with open(Path(args.rules)) as f:
 gens =  generate(args.seed, ex, args.depth)
 
 if args.last:
-    print(rend.render_poem(" ".join(gens[-1])))
+    print(rend.render_poem(gens[-1]))
 else:
     for i,gen in enumerate(gens):
         if (not args.no_banner):
             print(f"--------{i}-------")
-        print(rend.render_poem(" ".join(gen)))
+        print(rend.render_poem(gen))
