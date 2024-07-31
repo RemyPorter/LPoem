@@ -83,3 +83,85 @@ token::most of the time we do this//0.5
 ```
 
 When `token` is encountered, the appropriate rule will be chosen at random, weighted by the probabilities after the `//`.
+
+## Writing Poetry
+To write a poem, I recommend starting with your seed or axiom. Then expand each word in that using an LSystem rule, then expand each of those words. Effective LPoems need self-similarity, so you want rules that generate token sequences that create "loops" in your rule. The algae example above is a good example: the two rules create a repeating pattern.
+
+You must also make a choice: does your LPoem expand with each generation, or do you only want the *last* generation. The way you write the poem is likely going to be different. I think the algae poem is *fun* in that it leverages the natural behavior of LSystems to structure the poem. But many more natural sounding poems are most interesting when we only output the last generation.
+
+# danger
+The LPoem "danger", by Remy Porter
+
+```
+ where moment of danger
+
+ as a part of your time of growing
+ along your time within your death
+
+ as a part of flowing
+ along where time as fertile soil
+
+ as a part of dying
+ moment of danger
+ as changing
+
+ growing a part changing the flooded banks changing the sun
+
+ along dying
+ lives
+ dying
+ a moment of danger
+
+ as a part of your time of growing
+
+ becoming a tributary unto changing dying
+ the flooded banks along the sun
+ along the lives along the my rising along the banks
+ flowing a stream
+```
+
+Axiom: "danger down the line"
+Rules:
+```
+danger::fertile soil//0.5
+danger::your death//0.5
+fertile::where you grow in
+soil::heart of the sun *
+grow::wither//0.5
+grow::wander//0.5
+death::time of growing
+line::wake of the river
+down::along
+river::my life passing &
+life::rising along the banks *
+wither::lives
+wander::death *
+in::within the
+within::* as a part of
+part::tributary//0.5
+part::portion//0.5
+portion::part
+tributary::you
+you::death
+growing::changing
+time::moment of danger *
+moment::time
+wake::funeral
+funeral::grow//0.5
+funeral::wither//0.5
+heart::flooded banks
+passing::as a current
+current::stream
+changing::growing//0.333
+changing::flowing//0.333
+changing::dying *//0.333
+of::as//0.333
+of::unto//0.333
+of::within//0.333
+unto::down
+as::becoming//0.15
+as::changing//0.85
+becoming::becoming part of
+```
+
+Command: `python3 -m lpoem -r poems/danger.txt -d 11 -l "danger down the line"`
