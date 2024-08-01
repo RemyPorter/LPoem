@@ -65,6 +65,13 @@ fish::algae
 
 When we encounter "algae", we expand to "algae fish. When we encounter "fish" we expand to "algae".
 
+### Comments
+A "#" comments out everything until the end of the line, e.g.,
+
+```
+rule::replacement # a comment on this line
+```
+
 ### Special Glyphs
 There are special glyphs you can include in your rules. These glyphs control how the poem gets *rendered*, and allow you to take some typographic control of the poem.
 
