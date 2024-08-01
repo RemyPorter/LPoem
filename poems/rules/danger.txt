@@ -1,0 +1,40 @@
+# danger down the line
+danger::fertile soil//0.5
+danger::your death//0.5
+fertile::where you grow in
+soil::heart of the sun *
+grow::wither//0.5
+grow::wander//0.5
+death::time of growing
+line::wake of the river
+down::along
+river::my life passing &
+life::rising along the banks *
+wither::lives
+wander::death *
+in::within the
+within::* as a part of
+part::tributary//0.5
+part::portion//0.5
+portion::part
+tributary::you
+you::death
+growing::changing
+time::moment of danger *
+moment::time
+wake::funeral
+funeral::grow//0.5
+funeral::wither//0.5
+heart::flooded banks
+passing::as a current
+current::stream
+changing::growing//0.333
+changing::flowing//0.333
+changing::dying *//0.333
+of::as//0.333
+of::unto//0.333
+of::within//0.333
+unto::down
+as::becoming//0.15
+as::changing//0.85
+becoming::becoming part of

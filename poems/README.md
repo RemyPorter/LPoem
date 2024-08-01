@@ -1,0 +1,2 @@
+# Poems
+Here is a collection of poems generated using the tool. [output](./output/) contains the poems, while [rules](./rules/) contains the rules used to generate the poems. By convention, the rule files have the axiom used to start the poem as a comment on the first line.

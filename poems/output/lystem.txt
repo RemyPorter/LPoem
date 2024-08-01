@@ -1,0 +1,26 @@
+ layers
+         a poem is a tree
+
+
+ step through a generation
+ generation
+
+         step through a generation
+
+                 a poem is a tree
+
+
+ continue with step through a generation
+ a new level
+
+
+ continue with layers
+         a poem is a tree
+
+
+ step through a generation
+ generation
+ step through a generation
+ new level
+
+- lystem, by Remy Porter

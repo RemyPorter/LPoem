@@ -96,6 +96,9 @@ To write a poem, I recommend starting with your seed or axiom. Then expand each 
 
 You must also make a choice: does your LPoem expand with each generation, or do you only want the *last* generation. The way you write the poem is likely going to be different. I think the algae poem is *fun* in that it leverages the natural behavior of LSystems to structure the poem. But many more natural sounding poems are most interesting when we only output the last generation.
 
+# Examples
+See [poems](./poems/)
+
 # danger
 The LPoem "danger", by Remy Porter
 

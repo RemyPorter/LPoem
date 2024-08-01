@@ -1,0 +1,7 @@
+# a poem is a tree
+a::step through a generation *
+poem::[ a poem is a tree ] &
+is::continue with
+tree::a new level
+step::layers
+through::[ a poem is a tree ] &
