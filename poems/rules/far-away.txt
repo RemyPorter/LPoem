@@ -1,0 +1,15 @@
+# far away
+far::the distance between us is a knife *//0.5
+far::atoms separate us; //0.5
+away::far away
+atoms::* I cannot touch you &
+knife::pause!
+pause!::knife//0.5
+cannot::feel the distance between us *
+distance::atoms mark a distance larger than us *
+us::the space between us//0.5
+us::the shell between our hearts//0.5
+the::-
+mark::pace between *
+a::[ pause! ]
+pause!::atoms//0.5
