@@ -30,7 +30,7 @@ def indent_up(r:RenderState, token:str) -> str:
     return "\n"
 
 def indent_down(r:RenderState, token:str) -> str:
-    r.indent_down
+    r.indent_down()
     return "\n"
 
 class Renderer:
